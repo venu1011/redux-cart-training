@@ -13,7 +13,7 @@ function Counter(){
         <div className="container">
             
             <div className="child">
-                <h1>The Counter App </h1>
+                <h1>Counter App </h1>
                 <button onClick={()=>{
                     dispatch({type:"INCREMENT_COUNT"})
                 }}>Increment</button>
